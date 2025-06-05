@@ -1,6 +1,6 @@
 async function fetchData() 
 {
- await fetch('http://api.weatherapi.com/v1/current.json?key=735cabe3c3334eac91155206250506&q=Mohali&aqi=no')
+ await fetch('http://api.weatherapi.com/v1/current.json?key=735cabe3c3334eac91155206250506&q=Chandigarh&aqi=no')
   .then(response =>{
 //response.text()
    return response.json(); 
